@@ -1,0 +1,26 @@
+.section-tabs__list--color{
+    color: #6e6e6e;
+    font-size: 12px;
+    line-height: 15px;
+    list-style: none;
+}
+.section-tabs__list{
+    font-size: 12px;
+    line-height: 15px;
+    list-style: none;
+}
+.section-tabs__list{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-bottom: 40px;
+}
+.section-tabs{
+    margin-top: 50px;
+}
+.section-tabs__list:nth-child(1){
+    padding-right: 1%;
+}
+.section-tabs__list:nth-child(2){
+    padding-right: 1%;
+}

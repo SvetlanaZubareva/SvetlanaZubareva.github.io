@@ -1,0 +1,150 @@
+.img-upload__scale {
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-weight: 400;
+    padding: 0;
+  }
+  
+  .scale {
+    margin: 0;
+    padding: 10px;
+  
+    font-size: 0;
+    border: 0;
+  }
+  
+  .scale__control {
+    position: relative;
+  
+    width: 33px;
+    height: 33px;
+    margin: 0;
+    padding: 0;
+  
+    text-align: center;
+    vertical-align: middle;
+    color: black;
+  
+    
+  }
+
+  
+  .scale__control--smaller {
+    background-color: #F1F1F1;
+    border: none;
+    color: black;
+    height: 43px;
+  }
+  
+  .scale__control--smaller::before {
+    content: "–";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  
+    font-size: 20px;
+    line-height: 0;
+    color: black;
+  
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  
+  .scale__control--value {
+    width: 60px;
+  
+    font-size: 16px;
+    color: black;
+  
+    border: 0;
+    width: 50%;
+    height: 43px;
+    background-color: #F1F1F1;
+    position: relative;
+  }
+  
+  .scale__control--bigger {
+    border: none;
+    color: black;
+    background-color: #f1f1f1;
+    height: 43px;
+    width: 33px;
+  }
+  
+  .scale__control--bigger::before {
+    content: "+";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  
+    font-size: 20px;
+    line-height: 0;
+    color: black;
+  
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  .scale{
+    display: flex;
+    width: 50%;
+  }
+
+    
+  .scale__control--smallers {
+    background-color: #F1F1F1;
+    border: none;
+    color: black;
+    height: 43px;
+  }
+  
+  .scale__control--smallers::before {
+    content: "–";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  
+    font-size: 20px;
+    line-height: 0;
+    color: black;
+  
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  
+  .scale__control--values {
+    width: 60px;
+  
+    font-size: 16px;
+    color: black;
+  
+    border: 0;
+    width: 50%;
+    height: 43px;
+    background-color: #F1F1F1;
+    position: relative;
+  }
+  
+  .scale__control--biggers {
+    border: none;
+    color: black;
+    background-color: #f1f1f1;
+    height: 43px;
+    width: 33px;
+  }
+  
+  .scale__control--biggers::before {
+    content: "+";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  
+    font-size: 20px;
+    line-height: 0;
+    color: black;
+  
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }

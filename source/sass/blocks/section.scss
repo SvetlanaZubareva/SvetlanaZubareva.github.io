@@ -1,0 +1,135 @@
+.section{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    width: 100%;
+    border: 2px solid black;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 460px;
+}
+.section__td{
+    margin-bottom: 8px;
+}
+.section__td:nth-child(1){
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+.section__td:nth-child(2){
+    font-size: 20px;
+    line-height: 24px;
+    
+}
+.section__td:nth-child(3){
+    font-size: 16px;
+    line-height: 21px;
+}
+.section__td:nth-child(4){
+    font-size: 16px;
+    line-height: 21px; 
+    margin-bottom: 20px; 
+}
+.section__td:nth-child(5){
+    font-size: 20px;
+    line-height: 24px;
+    padding-bottom: 20px; 
+            
+}
+.section__td--color{
+    color: red;
+}
+.section__td--bold{
+    font-weight: bold;
+}
+.section__table{
+    border-bottom: 2px solid #c8c8c8;
+    width: 100%;
+    padding-bottom: 20px;
+}
+.section__td-width{
+    width: 240px;
+}
+.section__p{
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0 0 5px;
+}
+.section__p-text{
+    font-size: 12px;
+    line-height: 15px;
+    color: #6e6e6e;
+    margin: 0 0 10px;
+    border-bottom: 2px solid #c8c8c8;
+}
+.section__p-texts{
+    font-size: 12px;
+    line-height: 15px;
+    color: #6e6e6e;
+}
+.section__div-text{
+    display: flex;
+    justify-content: space-between;
+    font-size: 28px;
+    line-height: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.section__div-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.section__input{
+    width: 98%;
+    border: 2px solid #c8c8c8;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.section__button{
+    color: #ffff;
+    background-color: black;
+    padding: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.section__div-switch{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+@media(max-width:1200px){
+    .section{
+        margin: 0 25% 0;
+        width: 50%;
+        padding: 30px;
+    }
+    .section__td-width{
+        width: 70%;
+    }
+    .section__p{
+        font-size: 15px;
+    }
+    .section__td--bold{
+        font-size: 18px;
+    }
+}
+@media(max-width:850px){
+    .section{
+    width: 100%;
+    margin: 0;
+    }
+    .section__td-width{
+        width: 57%;
+    }
+    .section__div-text{
+        font-size: 20px;
+    }
+    .section__p-texts{
+        font-size: 7px;
+    }
+}
